@@ -1,0 +1,5 @@
+iptables -A INPUT -p tcp -j LOG
+iptables --list
+iptables --delete INPUT 1
+
+tail -n 100 /var/log/syslog  | grep IN=eth0 | sed 's/.*SRC=\([^ ]\+\).*/\1/g' | uniq
