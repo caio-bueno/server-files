@@ -1,0 +1,8 @@
+/opt/sts-4.8.0.RELEASE/SpringToolSuite4 \
+-nosplash \
+-consolelog \
+-debug \
+-application org.eclipse.jdt.core.JavaCodeFormatter \
+-verbose -data /opt/workspace_guides/ \
+-config /home/caio/Downloads/java_spring_formatter.xml \
+/home/caio/Downloads/30112021/clone/src/main/java
