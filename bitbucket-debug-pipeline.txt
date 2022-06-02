@@ -1,0 +1,3 @@
+echo -e 'FROM ruby:2.4.0\nWORKDIR /localDebugRepo\nCOPY ./repositorio-testes-automatizados /localDebugRepo' > my.dockerfile  && docker build --memory=1g --memory-swap=1g -t teste-pipeline:0.0.2 -f my.dockerfile . && docker run -it --network=host --memory=4g --memory-swap=4g --memory-swappiness=0 --cpus=4 --entrypoint=/bin/bash teste-pipeline:0.0.2 
+
+
