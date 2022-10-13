@@ -1,0 +1,3 @@
+The Bitbucket Cloud REST API
+
+https://developer.atlassian.com/cloud/bitbucket/rest/api-group-pipelines/#api-repositories-workspace-repo-slug-pipelines-config-variables-variable-uuid-put
