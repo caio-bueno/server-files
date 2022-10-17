@@ -4,5 +4,5 @@
 -debug \
 -application org.eclipse.jdt.core.JavaCodeFormatter \
 -verbose -data /opt/workspace_guides/ \
--config /home/caio/Downloads/java_spring_formatter.xml \
+-config /.metadata/.plugins/org.eclipse.core.runtime/.settings/org.eclipse.jdt.core.prefs \
 /home/caio/Downloads/30112021/clone/src/main/java
